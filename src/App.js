@@ -21,6 +21,11 @@ function App() {
         <Card
           /* prop ismi = { değişken } */
           author={recipeAuthor}
+          title={recipeItem.title}
+          date={recipeItem.date}
+          description={recipeItem.description}
+          likeCount={likeCount}
+          image={recipeItem.image}
         />
       </header>
     </div>
